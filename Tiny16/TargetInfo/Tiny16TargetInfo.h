@@ -1,0 +1,12 @@
+#ifndef LLVM_LIB_TARGET_TINY16_TARGETINFO_TINY16TARGETINFO_H
+#define LLVM_LIB_TARGET_TINY16_TARGETINFO_TINY16TARGETINFO_H
+
+namespace llvm {
+
+class Target;
+
+Target &getTheTiny16Target();
+
+} // namespace llvm
+
+#endif // LLVM_LIB_TARGET_TINY16_TARGETINFO_TINY16TARGETINFO_H
