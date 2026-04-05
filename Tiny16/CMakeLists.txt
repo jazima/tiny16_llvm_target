@@ -42,7 +42,7 @@ add_llvm_target(Tiny16CodeGen
     TargetParser
 
     ADD_TO_COMPONENT
-    Sparc
+    Tiny16
 )
 
 add_subdirectory(TargetInfo)
